@@ -3,10 +3,10 @@ import './App.css';
 
 // Componentes Globais
 import Header from "./components/header";
-import Home from "./pages/home";
+import Footer from "./components/footer"; // IMPORTANTE: Importado para não dar erro!
 
 // Páginas
-import Home from './pages/home';
+import Home from './pages/home'; // Agora só existe um!
 import ProblemaPage from './pages/ProblemaPage';
 import SolucaoPage from './pages/SolucaoPage';
 import RecursosPage from './pages/RecursosPage';
